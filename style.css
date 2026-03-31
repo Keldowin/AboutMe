@@ -86,7 +86,6 @@ a {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -252,5 +251,8 @@ h2 {
   }
   .about-lang-tags li {
     font-size: 13px;
+  }
+  .content {
+    padding: 1rem;
   }
 }
