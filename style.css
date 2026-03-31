@@ -235,4 +235,22 @@ h2 {
     justify-content: space-around;
     text-align: center;
   }
+  .about-image {
+    width: 125px;
+    height: 125px;
+  }
+  .about-tech-stek img {
+    max-width: 60px;
+  }
+  .button {
+    height: 40px;
+    padding-inline: 30px;
+    font-size: 14px;
+  }
+  .about-text {
+    font-size: 17px;
+  }
+  .about-lang-tags li {
+    font-size: 13px;
+  }
 }
