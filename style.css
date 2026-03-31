@@ -85,7 +85,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .about {
@@ -223,4 +225,14 @@ h2 {
   letter-spacing: 2px;
   text-align: center;
   color: var(--color-dark-light2);
+}
+
+@media (max-width: 425px) {
+  .about-me-info {
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
 }
